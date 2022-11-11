@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    color: orange;
+}
+
+#border{
+    border: 10px solid orange;
+    background-color: aliceblue;
+    flex-direction: column;
+    display:flex;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+#scoreBoard{
+    color:orange;
+    font-size: 32px;
+    margin-left: 10%;
+}
+
+#gameBoard{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+} 
+
+#resetButton{
+    size: 24px;
+    color: black;
+    display: flex;
+    justify-content: center;
+} 
+
+#startButton{ 
+    size: 24px;
+    color: black;
+    display: flex;
+    justify-content: center;
+} 
+
+#backToIntro{
+    size: 24px;
+    color: black;
+    display: flex;
+    justify-content: center;
+} 
+
+#gameRule{
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#screenShot{
+    margin-left: 35%;
+    height: 350px;
+    display: flex;
+}

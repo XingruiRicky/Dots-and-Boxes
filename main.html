@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dots and Boxes</title>
+        <link href="main.css" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>    
+
+    <script>
+        getNumberOfPlayer();
+        getRow();
+        getColumn();
+    </script>
+
+    
+    <body>
+        <div id="border">
+
+            <h1>Dots and Boxes</h1>
+
+            <div id="flexBox">
+                <div id="scoreBoard">
+                    <script>
+                        generateScoreBoard();
+                    </script>
+                </div>
+            <br>
+            <br>
+                <div id="gameBoard">
+                    <script>
+                        generateGameBoard();
+                        play();
+                    </script>
+                </div>
+                <br>
+                <br>
+
+                <div id="resetButton">
+                    <button onClick="window.location.reload()">RESET GAME</button>
+                </div>
+                <div id="backToIntro">
+                    <button onclick="window.location.href = 'intro.html'">BACK TO INTRO</button>
+                </div>
+
+            </div>
+            
+        </div>
+    </body>
+    
+
+</html>
